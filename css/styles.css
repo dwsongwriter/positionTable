@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+#two {
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+}
+
+#one {
+    position: fixed;
+    top: 80px;
+    left: 200px;
+    background: blue;
+}
+
+.outer {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    padding-left: 150px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color:#0099ff;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+td, th {
+    border: 1px solid #555;
+    padding: 10px 20px;
+}
+
+th {
+    background-color: #0099ff;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #00ddff;
+}
+
+tr:nth-child(odd) td {
+    background-color: #eee;
+}
+
+caption {
+    padding: 1.3em;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
